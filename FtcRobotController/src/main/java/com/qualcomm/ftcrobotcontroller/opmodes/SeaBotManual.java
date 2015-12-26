@@ -91,9 +91,6 @@ public class SeaBotManual extends PushBotTelemetry
         set_arm_power(arm_power);
         set_drum_power(drum_power);
 
-        m_hand_position (a_hand_position () + 0.05) = 1f * gamepad2.x;
-
-        m_hand_position (a_hand_position () - 0.05) = 1f * gamepad2.b;
 
         //----------------------------------------------------------------------
         //
